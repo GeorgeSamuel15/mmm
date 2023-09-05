@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    padding-top: 50px;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 12px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 24px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #1E665B;
+    float: right;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    padding:  14px 16px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .img-text img{
+    width:12%;
+    padding-top: -90%;
+    padding-left: 90px;
+  }
+  .flex-container{
+    margin-top: 100px;
+    margin-left:90px;
+    font-size:37px;
+    font-family:'Times New Roman', Times, serif ;
+  }
+  .flex-container img{
+    width:33%;
+    height:20%;
+    float:right;
+    margin-right: 190px;
+    border-radius: 20px;
+    box-shadow: 8px 8px grey;
+  }
+  .flex-container span{
+    color:#1E665B
+  }
+  .flex-container .request{
+    text-align: center;
+    padding:13px;
+    cursor:pointer;
+    outline:none;
+    background-color: #1E665B;
+    border:none;
+    border-radius: 4px;
+    box-shadow: 2px 2px grey;
+  }
+  .flex-container .request:active{
+    box-shadow: 3px 3px grey;
+    transform: translateY(4px) ;
+  }
+  .flex-container .diff{
+    text-align:center;
+    background: #1E665B;
+    padding:13px;
+    cursor:pointer;
+    outline:none;
+    border-radius: 4px;
+    box-shadow: 1px 1px grey;
+    color:black;
+    border:none;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  .diff:hover {opacity: 1}
+  @media screen  and (max-width:767px){
+    
+  }
